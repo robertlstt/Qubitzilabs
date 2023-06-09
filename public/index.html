@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114284805-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114284805-1');
+</script>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <title>Qubitzi</title>
+    <style>
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed, 
+      figure, figcaption, footer, header, hgroup, 
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article, aside, details, figcaption, figure, 
+      footer, header, hgroup, menu, nav, section {
+        display: block;
+      }
+      body {
+        background: #d6faff;
+        line-height: 1;
+        overflow: hidden;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #6b7d80;
+        }
+      }
+
+      ol, ul {
+        list-style: none;
+      }
+      blockquote, q {
+        quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content: '';
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      .logo {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .img {
+        position: absolute;
+        bottom: 0;
+        width: 250px;
+        height: 250px;
+        margin: -125px -125px;
+      }
+
+      .dot-spin {
+        width: 300px;
+        height: 300px;
+        margin: -150px -150px;
+        transition: all 3s;
+        animation-name: rotate;
+        animation-duration: 1.5s;
+        animation-play-state: paused;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      .dots {
+        animation-name: rotate;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        width: 100%;
+        height: 100%;
+      }
+
+      .dot-spin:hover {
+        width: 400px;
+        height: 400px;
+        margin: -200px -200px;
+        animation-timing-function: linear;
+        animation-play-state: running;
+      }
+
+  .neumorphic-text {
+        font-family: 'Baloo', sans-serif;
+        font-size: 48px;
+        color: #000000;
+        background-color: #f3f3f3;
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 10px 10px 20px #cbcbcb,
+          -10px -10px 20px #ffffff;
+      }
+
+      @keyframes rotate {
+        0% { transform: rotate(0deg) }
+        100% { transform: rotate(360deg) }
+      }
+    </style>
+  </head>
+  <body>
+    <style>
+    </style>
+    <div class="logo">
+      <img src="left_border.svg" class="img" />
+      <img src="right_border.svg" class="img" />
+      <img src="left_outro.svg" class="img" />
+      <img src="right_outrb.svg" class="img" />
+      <img src="left_ino.svg" class="img" />
+      <img src="right_inb.svg" class="img" />
+      <div class="img dot-spin">
+        <img src="dots.svg" class="dots" />
+      </div>
+    </div>
+    <h1 class="neumorphic-text" style="position: absolute; top: 0px; left: 50%; transform: translate(-50%, 20px);">Qubitzi Labs</h1>
+
+  </body>
+</html>
